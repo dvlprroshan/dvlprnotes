@@ -41,7 +41,7 @@ $(document).ready(function() {
 	function view_note(id, password) {
 		$.ajax({
 			type: "POST",
-			data: { action: "view-note", id: id, password: password },
+			data: { action: "view-note", id, password },
 			url: "./scripts/api.php",
 			success: function(data) {
 				if(data == "incorrect") {

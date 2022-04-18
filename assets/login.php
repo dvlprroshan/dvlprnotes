@@ -1,4 +1,3 @@
-<!-- Copyright <?php echo date('Y'); ?> © Xtrendence -->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -10,7 +9,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<meta name="mobile-web-app-capable" content="yes">
 		<meta name="theme-color" content="<?php echo $theme_color; ?>">
-		<title>A:/Notes</title>
+		<title>Dvlpr Notes</title>
 	</head>
 	
 	<body id="<?php echo $device; ?>">
